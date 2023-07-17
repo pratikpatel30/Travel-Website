@@ -81,7 +81,6 @@ header{
 }
 
 .navbar{
-    border:2px solid white;
     padding: 1rem;
 }
 
@@ -110,6 +109,13 @@ header{
 .navbar a:link,
 .navbar a:visited{
     color:#f4f4f4;
+}
+
+.navbar a{
+    padding-bottom: 0.3rem;
+}
+.navbar a:hover{
+    border-bottom: 1px solid white;
 }
 
 /* float clear */
