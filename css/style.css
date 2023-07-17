@@ -68,11 +68,26 @@ we can make untiliry classess and used one class many time
     color:#555;
 }
 
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+
+}
+
+.btn-primary{
+    background-color: white;
+    border-radius: 10em;
+}
+
 
 
 /*########## header styling ########## */
 header{
     height: 95vh;
+    position: relative;
     /* linear-gradient is used for dark img */
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)) , url('../img/header-image.jpg');
     background-position: center;
@@ -123,4 +138,26 @@ header{
     content: '';
     display: block;
     clear: both;
+}
+
+
+/*################ header content styling ############### */
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2));
+
+}
+
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-content p{
+    text-transform: uppercase;
+
 }
