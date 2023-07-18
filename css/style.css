@@ -188,6 +188,7 @@ header{
 .row{
     height: 350px;
     background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.315);
 }
 .row1{
     margin-bottom: 10rem;
@@ -216,4 +217,9 @@ header{
     height: 100%;
     /*object-fit:cover is used for same aspect img ratio */
     object-fit: cover;
+}
+
+.row::after{
+    content: '';
+    clear: both;
 }
