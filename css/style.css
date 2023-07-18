@@ -254,3 +254,16 @@ header{
    display: block;
    clear: both; 
 }
+
+/*############### Footer Styling ########## */
+
+.footer{
+    background: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.social-media-links i{
+   margin: 2rem; 
+}
